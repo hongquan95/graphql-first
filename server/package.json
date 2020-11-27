@@ -1,0 +1,19 @@
+{
+    "name": "graphql-playlist",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "cross-env": "^7.0.2",
+        "dotenv-safe": "^8.2.0",
+        "express": "^4.17.1",
+        "express-graphql": "^0.12.0",
+        "graphql": "^15.4.0",
+        "lodash": "^4.17.20",
+        "mongoose": "^5.10.16",
+        "nodemon": "^2.0.6"
+    },
+    "scripts": {
+        "dev": "nodemon ./app.js"
+    }
+}
